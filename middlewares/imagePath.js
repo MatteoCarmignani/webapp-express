@@ -4,4 +4,4 @@ function setImagePath(req, res, next) {
 }
 
 
-module.exports = setImagePath;
+module.exports = setImagePath; 
