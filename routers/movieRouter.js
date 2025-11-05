@@ -1,20 +1,20 @@
-//? Framework Express
+// Framework Express
 const express = require("express");
 
-//? Controller 
+// Controller 
 const controller = require("../controllers/controller.js");
 
-//? Server
+// Server
 const router = express.Router();
 
-//todo Index
+// Index
 router.get("/", controller.index)
 
-//todo Show
+// Show
 router.get("/:id", controller.show)
 
-//todo Store
+// Store
 router.post("/:id/review", controller.store)
 
-//! Esportare il modulo
+// Esportare il modulo
 module.exports = router;
